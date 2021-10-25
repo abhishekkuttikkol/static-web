@@ -14,7 +14,7 @@ body {
 }
 
 .full-screen {
-  padding: 8rem 0;
+  padding: 2rem 0;
 }
 
 .small-text {
@@ -173,9 +173,10 @@ b, strong {
   z-index: 999999;
   will-change: transform;
   transition: transform 200ms linear;
+  
 }
 .navbar[class*="-unpinned"] {
-  transform: translate(0, -150%);
+  /* transform: translate(0, -150%); */
 }
 .navbar[class*="-pinned"] {
   transform: translate(0, 0);
